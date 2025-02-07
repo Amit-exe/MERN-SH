@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({ path: "../.env" });
 const config = {
   env: process.env.NODE_ENV || "development",
   port: process.env.PORT || 3000,
