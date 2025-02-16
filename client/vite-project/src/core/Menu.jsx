@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 import { Home } from "lucide-react";
 function Menu() {
   return (
-    <div className="flex flex-row  p-5 justify-between align-bottom bg-gray-800 ">
+    <div className="flex flex-row  py-5 px-20 justify-between align-bottom bg-gray-800 ">
       <h1 className="text-3xl text-gray-300">MERN Skeleton</h1>
-      <div className="flex flex-row gap-4 text-xl text-gray-300">
+      <div className="flex flex-row gap-10 text-xl text-gray-300">
         <NavLink
           to="/"
           className={({ isActive }) =>
